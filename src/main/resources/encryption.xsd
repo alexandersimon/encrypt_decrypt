@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://emax-it.com/encryption-schema"
+           targetNamespace="http://emax-it.com/encryption-schema" elementFormDefault="qualified">
+
+    <xs:element name="getEncryptionRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="input" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getEncryptionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="output" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getDecryptionRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cipher" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getDecryptionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="output" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
