@@ -8,17 +8,24 @@
 - Done in src/main/resources/application.properties
 - ToDo: correct location of public and private key
 
+## How to run
+- Copy pem files to custom location (src/main/resources/pem)
+- Adjust path in application.properties
+- command: mvn clean package
+- Copy target/encrypt-decrypt-1.2.jar to execution env
+- command: java -jar encrypt-decrypt-1.2.jar
+
 ## Security
-### https certificate
+### Https certificate
 - Type: self signed
 - Algorithm: RSA
 - Keysize: 2048
 - Storetype: pkc12
 
-### public key
+### Public key
 - Algorithm: RSA
 - Keysize: 2048
 
-### private key
+### Private key
 - Algorithm: RSA
 - Keysize: 2048
