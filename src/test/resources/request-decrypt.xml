@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://emax-it.com/encryption-schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getDecryptionRequest>
+         <gs:cipher>DJ7obksvP7YX5uhgAVT5lZwjQLiI/jW7Z+FvVf/rQ7CYU2ZvmW+vnPjMzfDNn+6t/7Cc6nIrQAaQVND4jLBwk4ikbBn8R9zHO5A0O6/PycmBRLXqgNRNPeZQHK5KZovUtCpfR+g1DH3HDyQnXJAhEuboHogoBBbWShUVRNNqUzwfdFTTUztzKQFrBsTPnPU+Ie+gmhb6J5HSdBAQ3uw55zO8ir+qvpRORlMVkhBknaCfMZ7RZ8F8Urm+09esxNtitCVV+rWIHf0dzZadFcISqqze1El1cpcDnQKmNeh4n0vjyXup5YejA7ctMLmRdiDXAD5xSfNX1kF2vU4qpXC/Ow==</gs:cipher>
+      </gs:getDecryptionRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

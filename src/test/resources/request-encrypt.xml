@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://emax-it.com/encryption-schema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getEncryptionRequest>
+         <gs:input>Funktioniert</gs:input>
+      </gs:getEncryptionRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

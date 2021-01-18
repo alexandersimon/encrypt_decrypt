@@ -11,9 +11,14 @@
 ## How to run
 - Copy pem files to custom location (src/main/resources/pem)
 - Adjust path in application.properties
-- command: mvn clean package
+- `mvn clean package`
 - Copy target/encrypt-decrypt-1.2.jar to execution env
-- command: java -jar encrypt-decrypt-1.2.jar
+- `java -jar encrypt-decrypt-1.2.jar`
+
+## How to test it
+- Copy request-decrypt.xml and request-encrypt.xml from src\test\resources
+- `curl --header "content-type: text/xml" -d @request-decrypt.xml https://localhost:8443/ws --insecure`
+- `curl --header "content-type: text/xml" -d @request-encrypt.xml https://localhost:8443/ws --insecure`
 
 ## Security
 ### Https certificate
